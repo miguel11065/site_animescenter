@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeca,
+.menu,
+form button,
+.botao {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body,
+input {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cabeca {
+    padding: 16px 0;
+    background-color: #8654cd;
+    color: #ecf0f1;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    color: #A9A9A9;
+}
+
+.cabeca .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social img {
+    height: 35px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.menu {
+    padding: 16px 0;
+    background-color: #50a3eb;
+    color: #ecf0f1;
+}
+
+.menu nav li {
+    display: inline;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.menu nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#fundo {
+    background-color: #363636;
+}
+
+.botao {
+    background-color: #50a3eb;
+    color: #ecf0f1;
+    text-decoration: none;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+}
+
+.metodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    display: block;
+    width: 425px;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+form input {
+    background-color: #D3D3D3;
+    font-size: 15px;
+}
+
+form button {
+    background-color: #50a3eb;
+    color: #D3D3D3;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+section h1,
+h2 {
+    margin-bottom: 16px;
+}
+
+form button:hover {
+    background-color: #8654cd;
+}
+
+input:focus {
+    outline-color: #8654cd;
+}
+
+footer {
+    background-color: #8654cd;
+    color: #ecf0f1;
+    padding: 16px 0;
+    font-size: 20px;
+}
